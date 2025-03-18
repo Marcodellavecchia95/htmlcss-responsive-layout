@@ -205,7 +205,21 @@ footer {
 }
 
 /* RESPONSIVE */
-
+@media screen and (min-width: 576px) {
+  .recipe-card img {
+    float: left;
+    margin-right: 10px;
+    padding-top: 40px;
+  }
+  .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .social li {
+    padding: 10px 45px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 700px;
@@ -281,6 +295,9 @@ footer {
 
   .social li b {
     display: inline-block;
+  }
+  .social li {
+    padding: 10px 40px;
   }
 
   .recipe-card img {
