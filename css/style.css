@@ -96,6 +96,7 @@ h1 {
 }
 
 /* SOCIAL  */
+
 .social ul {
   display: flex;
   justify-content: space-between;
@@ -109,4 +110,27 @@ h1 {
   padding: 10px 15px;
   background-color: white;
   border-radius: 50px;
+}
+
+/* BANNER */
+
+.hidden-ads img {
+  margin-top: 30px;
+  display: none;
+}
+
+/* RECIPE  */
+
+.recipe p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.orange-row {
+  width: 70px;
+  height: 3px;
+  background-color: #f7b873;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
