@@ -20,6 +20,9 @@ ul {
   list-style-type: none;
 }
 
+body {
+  background-color: #f6f5f3;
+}
 /* UTILS */
 
 .debug,
@@ -48,4 +51,13 @@ ul {
 [class*="col"] {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+/* HEADER  */
+.page-header {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  color: #ff940d;
 }
