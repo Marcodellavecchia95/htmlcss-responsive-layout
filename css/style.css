@@ -94,3 +94,19 @@ h1 {
 .recipe-ingredients .card-bottom {
   padding-bottom: 30px;
 }
+
+/* SOCIAL  */
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.social li b {
+  display: none;
+}
+
+.social li {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 50px;
+}
