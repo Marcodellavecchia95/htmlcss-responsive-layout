@@ -68,7 +68,9 @@ h1 {
   margin: 20px 0;
   color: gray;
 }
-
+.recipe-title span {
+  display: none;
+}
 .recipe-title h3 {
   font-size: 1.5rem;
   color: #4b3262;
@@ -112,6 +114,22 @@ h1 {
   border-radius: 50px;
 }
 
+.fa-facebook {
+  color: #1a77f3;
+}
+.fa-twitter {
+  color: #009eff;
+}
+.fa-instagram {
+  color: #dc46a3;
+}
+.fa-pinterest {
+  color: #e62222;
+}
+.fa-youtube {
+  color: #e62222;
+}
+
 /* BANNER */
 
 .hidden-ads img {
@@ -122,9 +140,9 @@ h1 {
 /* RECIPE  */
 
 .recipe p {
-  margin-top: 30px;
   font-size: 1.5rem;
   font-weight: 500;
+  margin-top: 30px;
 }
 
 .orange-row {
@@ -132,7 +150,7 @@ h1 {
   height: 3px;
   background-color: #f7b873;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .recipe-card p {
@@ -184,4 +202,58 @@ footer {
 
 .card-nav {
   margin-bottom: 20px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .recipe-title span {
+    display: inline;
+  }
+  h1 {
+    text-align: left;
+    color: #ff940d;
+    padding: 10px 0 0 20px;
+  }
+
+  .card-top img {
+    width: 100%;
+  }
+  .recipe-ingredients ul {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .social li {
+    padding: 10px 55px;
+  }
+  .recipe-card img {
+    float: left;
+    margin-right: 10px;
+    padding-top: 40px;
+  }
+  .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .recipe-card p {
+    font-size: 1rem;
+    line-height: 200%;
+  }
+
+  .hidden-ads img {
+    display: inline;
+  }
+
+  .card-contact p {
+    margin-top: 30px;
+  }
+  .card-nav ul li {
+    margin-right: 0;
+  }
 }
