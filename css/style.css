@@ -257,3 +257,56 @@ footer {
     margin-right: 0;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 1180px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  .recipe-title h3 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .recipe-ingredients {
+    display: flex;
+  }
+
+  .recipe-ingredients ul {
+    display: block;
+  }
+
+  .social li b {
+    display: inline-block;
+  }
+
+  .recipe-card img {
+    width: 30%;
+  }
+
+  footer .container {
+    max-width: 100%;
+  }
+
+  .page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .card-nav ul {
+    display: flex;
+  }
+  .card-contact p {
+    text-align: start;
+    margin: 10px 0;
+  }
+
+  .card-nav {
+    margin: 0;
+  }
+}
