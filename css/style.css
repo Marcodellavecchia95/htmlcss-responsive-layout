@@ -138,10 +138,50 @@ h1 {
 .recipe-card p {
   font-size: 1rem;
   line-height: 200%;
+  margin-bottom: 40px;
 }
 
 .recipe-card img {
   max-width: 50%;
   margin: 0 auto;
   display: block;
+}
+
+/* FOOTER  */
+
+footer {
+  background-color: #79669f;
+}
+
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.card-contact p {
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
+.card-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 41px;
+  justify-content: center;
+  align-items: center;
+}
+.card-nav ul li a {
+  color: white;
+  text-decoration: underline;
+}
+
+.card-nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.card-nav {
+  margin-bottom: 20px;
 }
